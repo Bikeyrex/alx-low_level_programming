@@ -1,22 +1,19 @@
-/*
-    * File: 2-print_alphabet.c
-     * Auth: Egbekun G. Bekewei
-*/
-
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
-* main - Prints the alphabet in lowercase.
+* main - Entry point
 *
-* Return: Always 0.
+* Return: Always 0 (Success)
 */
+
 int main(void)
 {
-		char letter;
+		char low;
 
-		for (letter = 'a'; letter <= 'z'; letter++)
-			utchar(letter);
-
+		for (low = 'a'; low <= 'z'; low++)
+			putchar(low);
 		putchar('\n');
 
 		return (0);
