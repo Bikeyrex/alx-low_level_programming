@@ -1,24 +1,18 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
-* main - Prints "_putchar" followed by a new line.
-*
-* Return: Always 0.
+
+
+/*
+* File: main.h
+* Auth: Bekewei G. Egbekun
+* Desc: Header file containing declarations for all functions
+*       used in the 0x02-functions_nested_loops directory.
 */
 
-int main(void)
-{
-		_putchar('H');
-		_putchar('o');
-		_putchar('l');
-		_putchar('b');
-		_putchar('e');
-		_putchar('r');
-		_putchar('t');
-		_putchar('o');
-		_putchar('n');
-		_putchar('\n');
 
-		return (0);
-}
 
+int _putchar(char c);
+
+
+#endif
