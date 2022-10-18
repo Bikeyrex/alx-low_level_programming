@@ -1,15 +1,15 @@
 #include <unistd.h>
-#include "ALXschool.h"
+#include "holberton.h"
 
 /**
 * main - Check description
-* Description: It prints the word ALXschool, followed by a new line.
-* Return: 0
+* Description: It prints the word Holberton, followed by a new line.
+* Return: 0.
 */
 
 int main(void)
 {
-		char word[9] = "ALXschool";
+		char word[9] = "Holberton";
 		int i;
 
 		for (i = 0; i < 9; i++)
