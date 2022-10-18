@@ -1,14 +1,15 @@
 #include <unistd.h>
-#include "putchar.h"
+#include "ALXschool.h"
 
 /**
-   * main - Check description
-    * Description: It prints the word Putchar, followed by a new line.
-     * Return: 0.
-      */
+* main - Check description
+* Description: It prints the word ALXschool, followed by a new line.
+* Return: 0
+*/
+
 int main(void)
 {
-		char word[9] = "putchar";
+		char word[9] = "ALXschool";
 		int i;
 
 		for (i = 0; i < 9; i++)
