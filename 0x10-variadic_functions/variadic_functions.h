@@ -5,7 +5,7 @@
 
 /*
 * File: variadic_functions.h
-* Auth: Brennan D Baraban
+* Auth: Bekewei G Goodnews
 * Desc: Header file containing prototypes for all functions
 *       used in the 0x10-variadic_functions directory.
 */
