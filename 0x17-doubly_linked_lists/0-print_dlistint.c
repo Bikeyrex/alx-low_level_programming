@@ -1,7 +1,3 @@
-/*
- * File: 0-print_dlistint.c
- */
-
 #include "lists.h"
 
 /**
